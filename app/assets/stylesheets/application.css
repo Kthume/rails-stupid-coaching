@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Set the background color for the body */
+
+body {
+  background-color: #d59ecd;
+}
+
+/* Style links */
+a {
+  color: rgb(227, 132, 235);
+  text-decoration: none;
+}
+
+
+/* Customize button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #933491;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Style form inputs */
+input[type="text"], textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #6a6565;
+  border-radius: 5px;
+}
+
+/* Style form submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #e527ef;
+  color: #ffffff;
+  border: 0, 0, 0, 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
